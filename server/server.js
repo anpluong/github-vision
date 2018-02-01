@@ -32,7 +32,7 @@ app.post('/internaldata/userlogin', usersController.findOrCreate)
 
 /* ------------ END postgres routes section ------------ */
 
-// app.get('/', authController.checkCookie, dbController.read);
+//app.get('/', authController.checkCookie, dbController.read);
 
 app.get('/login', authController.login);
 

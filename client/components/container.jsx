@@ -14,7 +14,7 @@ class Container extends Component {
   }
 
   //do fetch for authorization here
-  componentWillMount() {
+  componentDidMount() {
 
   }
 
